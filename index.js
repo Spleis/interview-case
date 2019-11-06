@@ -1,11 +1,11 @@
 const equation = process.argv[2];
 
-const calculateParenthesis = (equation) => {
+const calculator = (equation) => {
     return equation;
 };
 
 if (equation) {
-    console.log(calculateParenthesis(equation));
+    console.log(calculator(equation));
 }
 
-module.exports = calculateParenthesis;
+module.exports = calculator;
