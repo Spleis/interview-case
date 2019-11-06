@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node index",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^6.2.2"
+  }
+}
